@@ -1,11 +1,16 @@
 #container {
-  text-align: center;
+  // text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  // position: absolute;
+  // left: 0;
+  // right: 0;
+  // top: 50%;
+  // transform: translateY(-50%);
+  display: flex;
+  width: 100%;
+  // height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #container strong {
@@ -16,12 +21,124 @@
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
-  margin: 0;
+  // background: pink;
+  // text-align: end;
+  // padding-top: 10%;
 }
 
 #container a {
   text-decoration: none;
 }
+
+#container .landing h1 {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#container .landing p {
+  font-size: 14px;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+
+#container .box1{
+  width: 100%;
+  height: 150px;
+  // border: 2px solid red;
+  background: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gospel-concert-church-flyer-design-template-6d12458e05774a7b659129539af4eabf_screen.jpg?ts=1612949751');
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: blur(0.5px);
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+// #container .box1 h2 {
+//   // width: 100%;
+//   // height: 100%;
+//   // padding: 160px 0px 0px 10px;
+//   // color: #fff;
+//   // font-size: 30px;
+//   // background: rgba(0,0,0,0.5);
+//   // margin-top: 0;
+//   // backdrop-filter: blur(0.8px);
+
+// }
+
+#container .box2{
+  width: 100%;
+  height: 170px;
+  // border: 2px solid yellow;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+}
+
+#container .box2 .innerBx {
+  flex: 1;
+  border: 1px solid rgba(255,255,255,0.4)
+}
+
+#container .box2 .innerBx h2 {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  padding: 55px 5px 0px 0px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  background: rgba(0,0,0,0.5);
+  margin-top: 0;
+  backdrop-filter: blur(0.2px);
+}
+
+#container .box2 .innerBx1 {
+  background: url('data:image/jpeg;base64,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');
+  background-size: cover;
+}
+
+
+#container .box2 .innerBx2 {
+  background: url('https://images.unsplash.com/photo-1579208575657-c595a05383b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2l2ZXxlbnwwfHwwfHw%3D&w=1000&q=80=');
+  background-size: cover;
+}
+
+#container .box2 .innerBx3 {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGROg8XavzWQ54D3S5_myu25AwoRcj7QMZ_w&usqp=CAU');
+  background-size: cover;
+}
+
+
+#container .box3{
+  width: 100%;
+  height: 150px;
+  // border: 2px solid red;
+  background: url('https://probonoaustralia.com.au/wp-content/uploads/2021/10/Podcasting-trends-in-the-Australian-for-purpose-sector.jpg');
+  background-size: cover;
+  filter: blur(0.2px);
+  // border-radius: 5px;
+  overflow: hidden;
+
+}
+
+#container .box3 h2 {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0px 0px 10px;
+  color: #fff;
+  font-size: 30px;
+  background: rgba(0,0,0,0.5);
+  margin-top: 0;
+  backdrop-filter: blur(0.2px);
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+}
+// .

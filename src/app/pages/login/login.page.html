@@ -1,9 +1,47 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>login</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+<div>
+  <div class="form">
+    <div class="imgBx">
+      <img src="https://media.istockphoto.com/photos/girl-learning-on-line-with-a-tablet-and-headphones-picture-id647280846?k=20&m=647280846&s=612x612&w=0&h=i1wTLnMiOM1DqNFhTL6nnQnczFCsAza52x5YXWo4uLk=" alt="">
+    </div>
+    <form action="">
+      <div class="formGroup">
+        <ion-item>
+        <ion-label position="floating">Name: </ion-label>
+        <ion-input type="text"></ion-input>
+        </ion-item>
+      </div>
 
+      <div class="formGroup">
+        <ion-item>
+        <ion-label position="floating">Password: </ion-label>
+        <ion-input type="text"></ion-input>
+        </ion-item>
+      </div>
+
+      <div class="btn">
+        <button>Login</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="icon">
+    <p>- Or -</p>
+
+    <div class="other">
+      <ion-icon name="logo-google" style="color: rgb(212, 42, 255)"></ion-icon>
+      <ion-icon name="logo-facebook" style="color: rgb(42, 42, 255)"></ion-icon>
+      <ion-icon name="logo-twitter" style="color: rgb(114, 202, 41)"></ion-icon>
+    </div>
+  </div>
+</div>
 </ion-content>

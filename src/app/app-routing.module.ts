@@ -6,6 +6,10 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./pages/tabnav/tabnav.module').then( m => m.TabnavPageModule)
   },
+  {
+    path: 'news-feed',
+    loadChildren: () => import('./pages/news-feed/news-feed.module').then( m => m.NewsFeedPageModule)
+  },
 ];
 
 @NgModule({

@@ -1,0 +1,73 @@
+.form {
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.form .imgBx {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  // border: 2px solid red;
+  margin-bottom: 5px;
+
+}
+
+.form form {
+  width: 200px;
+}
+
+.form .imgBx img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn button{
+  margin-top: 10px;
+  width: 130px;
+  padding: 8px;
+  text-align: center;
+  padding: 10px;
+  background: rgb(83, 164, 196);
+  color: #fff;
+  border-radius: 25px;
+
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  padding: 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon .other {
+  // border: 2px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 40px;
+  justify-content: space-between;
+}
+.icon ion-icon {
+  width: 25px;
+  height: 25px;
+}
+// .
